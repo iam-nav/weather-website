@@ -20,7 +20,7 @@ app.set('views',viewpath)
 app.use(express.static(publicDirectory))
 hbs.registerPartials(partialPath)
 
-app.get('/', (req,res)=>{
+app.get('', (req,res)=>{
     res.render('index',{
         title:'weather',
         name:'Navjot Singh'
