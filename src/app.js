@@ -5,7 +5,7 @@ const port = process.env.PORT || 3000
 
 const hbs = require('hbs')
 const geocode = require('./utils/geocode')
-const forcast = require('./utils/forcast')
+const forcast = require('./utils/forcast')  
 
 //define path for express config
 const publicDirectory= path.join(__dirname,'../public')
